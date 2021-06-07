@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <title>Catelya</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><a href="index.html"><img src="img/logo.png" alt=""
+                            class="header__logo-img"></a></div>
+                <ul class="header__nav">
+                    <li><a href="#products">Наші товари</a></li>
+                    <li><a href="#benefits">Про нас</a></li>
+                </ul>
+                <div class="header__contact">
+                    <a href="#popup-register" class="header__price"><img src="img/price.svg" alt=""
+                            class="header__price-img"></a>
+                    <a href="tel:+380 96 855 29 42" class="header__tel"><img src="img/tel.svg" alt=""
+                            class="header__tel-img">
+                        <div class="header__tel-text">+380 96 855 29 42</div>
+                    </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="#products">Наші товари</a></li>
+                        <li><a href="#benefits">Про нас</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__content">
+                    <div class="main__title">Будівельні матеріали від ТМ Cataleya</div>
+                    <div class="main__descr">Європейська якість за доступною ціною</div>
+                    <div class="main__btn">
+                        <a href="#products" class="main__btn-link btn-link">Продукція</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__bg">
+            <img src="img/main-bg.png" alt="" class="main__bg-img">
+        </div>
+    </main>
+    <div class="benefits" id="benefits">
+        <div class="container">
+            <div class="benefits__title title">Чому обирають Cataleya</div>
+            <div class="benefits__inner">
+                <div class="benefits__box">
+                    <div class="benefits__box-img"><img src="img/benefits/1.png" alt="" class="benefits__box-img-item">
+                    </div>
+                    <div class="benefits__box-title">Якість товарів</div>
+                    <div class="benefits__box-text">Маємо всі необхідні <br>
+                        сертифікати на нашу <br>
+                        продукцію</div>
+                </div>
+                <div class="benefits__box">
+                    <div class="benefits__box-img"><img src="img/benefits/2.png" alt="" class="benefits__box-img-item">
+                    </div>
+                    <div class="benefits__box-title">Екологічність</div>
+                    <div class="benefits__box-text">Вся продукція творена <br>
+                        на основі екологічно чистих <br> матеріалів</div>
+                </div>
+                <div class="benefits__box">
+                    <div class="benefits__box-img"><img src="img/benefits/3.png" alt="" class="benefits__box-img-item">
+                    </div>
+                    <div class="benefits__box-title">Асортимент</div>
+                    <div class="benefits__box-text">Будівельні матеріали <br>
+                        представлені в широкому <br> асортименті</div>
+                </div>
+                <div class="benefits__box">
+                    <div class="benefits__box-img"><img src="img/benefits/4.png" alt="" class="benefits__box-img-item">
+                    </div>
+                    <div class="benefits__box-title">Надійне партнерство</div>
+                    <div class="benefits__box-text">Виконуємо всі свої <br>
+                        зобов'язання незалежно від <br> обставин.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="container">
+            <div class="info__inner">
+                <div class="info__img"><img src="img/info.png" alt="" class="info__img-item"></div>
+                <div class="info__content">
+                    <div class="info__title title">Будівельні товари від ТМ Cataleya</div>
+                    <div class="info__text">Широкий асортимент будматеріалів <br>
+                        за вигідною ціною. <br>
+                        Високий рівень сервісу, професійні консультації <br>
+                        з підбору будматеріалів в найкоротші терміни. <br>
+                        Комплектуємо товар під ваші потреби і переваги. <br>
+                        Доставка по Вінниці та області протягом 24 годин. <br>
+                    </div>
+                    <div class="info__btn">
+                        <a href="#" class="info__btn-link btn-link toggle-popup">Замовити</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products" id="products">
+        <div class="container">
+            <div class="products__title title">Наша продукція</div>
+            <div class="filter products__links" id="filter">
+                <a href="#" class="active" data-filter="all">Всі товари</a>
+                <a href="#" data-filter="1">Грунтовки</a>
+                <a href="#" data-filter="2">Клей плитки</a>
+                <a href="#" data-filter="3">Клей для фасадів</a>
+                <a href="#" data-filter="4">Фасадні фарби</a>
+            </div>
+
+
+            <div class="products__inner">
+                <div class="products__box" data-cat="1">
+                    <div class="products__box-inner">
+                        <a href="product.html" class="products__box-img"><img src="img/products/1.png" alt=""
+                                class="products__box-img-item"></a>
+                        <div class="products__box-title">Ґрунтовка КТ-201</div>
+                    </div>
+                    <div class="products__box-count">5 л</div>
+                    <div class="products__box-btn">
+                        <a href="product.html" class="products__box-btn-link">Детальніше</a>
+                    </div>
+                </div>
+                <div class="products__box" data-cat="2">
+                    <div class="products__box-inner">
+                        <a href="product.html" class="products__box-img"><img src="img/products/1.png" alt=""
+                                class="products__box-img-item"></a>
+                        <div class="products__box-title">Ґрунтовка КТ-201</div>
+                    </div>
+                    <div class="products__box-count">10 л</div>
+                    <div class="products__box-btn">
+                        <a href="product.html" class="products__box-btn-link">Детальніше</a>
+                    </div>
+                </div>
+                <div class="products__box" data-cat="3">
+                    <div class="products__box-inner">
+                        <a href="product.html" class="products__box-img"><img src="img/products/2.png" alt=""
+                                class="products__box-img-item"></a>
+                        <div class="products__box-title">Ґрунт КТ-212</div>
+                    </div>
+                    <div class="products__box-count">10 л</div>
+                    <div class="products__box-btn">
+                        <a href="product.html" class="products__box-btn-link">Детальніше</a>
+                    </div>
+                </div>
+                <div class="products__box" data-cat="4">
+                    <div class="products__box-inner">
+                        <a href="product.html" class="products__box-img"><img src="img/products/3.png" alt=""
+                                class="products__box-img-item"></a>
+                        <div class="products__box-title">Ґрунт КТ-232</div>
+                    </div>
+                    <div class="products__box-count">25 л</div>
+                    <div class="products__box-btn">
+                        <a href="product.html" class="products__box-btn-link">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <div class="footer__logo"><a href="index.html" class=""><img src="img/logo-footer.png" alt=""
+                                class="header__logo-img"></a></div>
+                    <div class="footer__info-descr">ТМ Cataleya <br>
+                        Високоякісні будівельні товари </div>
+                </div>
+                <div class="footer__contact">
+                    <div class="footer__contact-title">Зв’язатися з нами:</div>
+                    <div class="footer__contact-inner">
+                        <div class="footer__contact-block">
+                            <div class="footer__contact-descr"><img src="img/footer01.png" alt="" class=""> Контакти
+                            </div>
+                            <div class="footer__contact-item"><a href="tel:+380 96 855 29 42">+380 96 855 29 42</a>
+                            </div>
+                            <div class="footer__contact-item"><a href="mailto:Cataleya2018@ukr.net">Cataleya2018@ukr.net</a>
+                            </div>
+                        </div>
+                        <div class="footer__contact-block">
+                            <div class="footer__contact-descr"><img src="img/footer02.png" alt="" class=""> Наша адреса:
+                            </div>
+                            <div class="footer__contact-item">м. Вінниця, <br>
+                                вул. Іванова, 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__partners">
+                    <div class="footer__partners-title">Наші партнери:</div>
+                    <div class="footer__partners-item">ТОВ “Астов” - інтернет-магазин покрівельних
+                        та фасадних матеріалів</div>
+                    <div class="footer__partners-item">ТОВ “Будмакс” - інтернет магазин <br> будівельних товарів </div>
+                </div>
+            </div>
+            <div class="footer__end">
+                <div class="">Всі права захищені ©2021</div>
+                <div class="">Дизайн та розробка - PLOMBIR web studio</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup popup-register">
+        <div class="popup__content">
+            <div class="popup__title">Зв’яжіться з нами</div>
+            <form action="#">
+                <input type="text" placeholder="Ім’я" class="popup-input" required>
+                <input type="tel" placeholder="Телефон" class="popup-input" required>
+                <input type="text" placeholder="Текст" class="popup-input">
+                <button class="btn-link popup-btn">надіслати заявку</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="bg-menu"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script>clear();</script>
+</body>
+
+</html>
